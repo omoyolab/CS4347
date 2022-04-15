@@ -42,5 +42,5 @@ ADD COLUMN `name` VARCHAR(235) NOT NULL AFTER `user_id`;
 
 #inserting to table
 
-INSERT INTO userVALUES ('6','Yo’, ‘yoman@gmail.com','keypass','Computer Science','Chemistry','M', NULL,'2022-04-01 13:17:17','6','31');
+INSERT INTO user VALUES ('6','Yo’, ‘yoman@gmail.com','keypass','Computer Science','Chemistry','M', NULL,'2022-04-01 13:17:17','6','31');
 INSERT INTO `match`VALUES ('6','Taurus','Rugby','cooking','Swimming');
