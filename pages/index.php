@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,17 +17,9 @@
     <form>
 					<table class="form">
 						<tr>
-							<td>Username:</td>
-							<td><input type="text" id="FName" name="name" size="20"></td>
-						</tr>
-						<tr>
-							<td>Password:</td>
-							<td><input type="text" id="LName" name="age" size="20" ></td>
-						</tr>
-						<tr>
 							<td colspan="2" align="center">
-								<button type="submit">Save</button>&nbsp;&nbsp;&nbsp;
-								<button type="button" id="cancelBtn" >Cancel</button>
+								<a href="signup.php"><button type="button">Sign Up</button></a>&nbsp;&nbsp;&nbsp;
+                                <a href="login.php"><button type="button" id="cancelBtn" >Login</button></a>
 							</td>
 						</tr>
 					</table>
@@ -36,3 +29,4 @@
 </body>
 
 </html>
+                                   
