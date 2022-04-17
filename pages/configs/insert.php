@@ -18,7 +18,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
      }
 	mysqli_close($conn);
    
-header("Location: signup2.php"); 
+header("Location: ../signup2.php"); 
 	
    
 }

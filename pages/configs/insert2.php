@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	 
 	 if (mysqli_query($conn, $sql)) {
         echo "New Account created Sucessfully !";
-		echo "<a href='login.php'>Click here to sign in</a>";
+		echo "<a href='../login.php'>Click here to sign in</a>";
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
      }
