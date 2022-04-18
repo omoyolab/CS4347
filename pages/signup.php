@@ -4,7 +4,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Register</title>
-<link rel="stylesheet" type="text/css"  href ="style.css">
+<link rel="stylesheet" type="text/css"  href ="../css/style.css">
+<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
 
 </head>
 <body>
@@ -13,7 +15,7 @@
         </div>
 		
 		<div>
-    <form action="configs/insert.php" method="post">
+    <form action="configs/insert.php" method="post" id="signup1">
 					<table class="form">
                         <tr>
 							<td>Zodiac:</td>
@@ -44,5 +46,25 @@
 		</div>
 
 </body>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$("#signup1").validate({
+			rules:{
+				zodiac: "required",
+				interest1: "required",
+				interest2: "required",
+				interest3: "required"
+			},
+			messages:{
+				zodiac: "Please enter your zodiac sign",
+				interest1: "Please enter your first Interest",
+				interest2: "Please enter your second Interest",
+				interest3: "Please enter your Third Interest"
+			}
+		})
+	})
+
+</script>
 
 </html>

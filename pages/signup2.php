@@ -3,7 +3,10 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Register</title>
-<link rel="stylesheet" type="text/css"  href ="style.css">
+<link rel="stylesheet" type="text/css"  href ="../css/style.css">
+<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+
 
 </head>
 <body>
@@ -12,7 +15,7 @@
         </div>
 		
 		<div>
-    <form action="configs/insert2.php" method="post">
+    <form action="configs/insert2.php" method="post" id="signup2">
 					<table class="form">
 						<tr>
 							<td>Name:</td>
@@ -55,4 +58,35 @@
 		
 	
 </body>
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$("#signup2").validate({
+			rules:{
+				name: "required",
+				age: "required",
+				sex: required,
+				email:{
+					required:true,
+					email: true
+				},
+				password: "required",
+				college: "required",
+				major: "required"
+			
+			},
+			messages:{
+				name: "Please enter you Name",
+				age: "Please enter your Age",
+				sex:  "Please enter your Sex",
+				email:  "Please enter your Email",
+				password:  "Please enter your Password",
+				college:  "Please enter your College",
+				major:  "Please enter your Major"
+			}
+		})
+	})
+
+</script>
 </html>

@@ -12,7 +12,7 @@
 	 
 	 
 	  $result= mysqli_query ($conn,"SELECT * FROM user WHERE email = '$email' and password = '$password'")
-				or die("Failed to Query database" .mysqli_error($conn));
+				or die("Failed to Query database" .mysqli_error());
 	  $row = mysqli_fetch_array($result);
 	  
 	  if($row['email'] == $email && $row['password']){

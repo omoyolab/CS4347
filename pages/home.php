@@ -1,13 +1,13 @@
 
-
-
 <!DOCTYPE html>
 <html lang="">
 <head>
     <meta charset="UTF-8">
     <title>Database Project</title>
 	<meta name="Author" content=""/>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
@@ -19,8 +19,8 @@
     <div class="profile_section">
         <div class="info">
               <h3>My Profile</h3>
-            <a href="update.php"> Edit Profile</a>
-            <a href="delete.php"> Delete Profile</a>
+            <a href=""> Edit Profile</a>
+            <a href=""> Delete Profile</a>
                 <ul>
                     <li>Name:</li>
                     <li>College:</li>

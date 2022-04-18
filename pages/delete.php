@@ -3,7 +3,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Register</title>
-<link rel="stylesheet" type="text/css"  href ="style.css">
+<link rel="stylesheet" type="text/css"  href ="../css/style.css">
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 
 </head>
 <body>
