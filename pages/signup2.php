@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,18 +12,19 @@
         </div>
 		
 		<div>
-	<?php
-
-	?>
-    <form>
+    <form action="configs/insert2.php" method="post">
 					<table class="form">
 						<tr>
 							<td>Name:</td>
-							<td><input type="text" id="FName" name="name" size="20"></td>
+							<td><input type="text" id="name" name="name" size="20"></td>
 						</tr>
 						<tr>
 							<td>Age:</td>
-							<td><input type="text" id="LName" name="age" size="20" ></td>
+							<td><input type="text" id="age" name="age" size="20" ></td>
+						</tr>
+                        <tr>
+							<td>Sex:</td>
+							<td><input type="text" id="sex" name="sex" size="20" ></td>
 						</tr>
 						<tr>
 							<td>Email:</td>
@@ -42,33 +42,19 @@
 							<td>Major:</td>
 							<td><input type="text" id="major" name="major" size="20" ></td>
 						</tr>
-                        <tr>
-							<td>Zodiac:</td>
-							<td><input type="text" id="college" name="college" size="20" ></td>
-						</tr>
-						<tr>
-							<td>Interest 1:</td>
-							<td><input type="text" id="intrest1" name="major" size="20" ></td>
-						</tr>
-                        <tr>
-							<td>Interest 2:</td>
-							<td><input type="text" id="intrest2" name="major" size="20" ></td>
-						</tr>
-                        <tr>
-							<td>Interest 3:</td>
-							<td><input type="text" id="intrest3" name="major" size="20" ></td>
-						</tr>
+						
                      
 						<tr><td>&nbsp;</td></tr>
 						<tr>
 							<td colspan="2" align="center">
-								<button type="submit">Save</button>&nbsp;&nbsp;&nbsp;
+								<button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;
 								<button type="button" id="cancelBtn" >Cancel</button>
 							</td>
 						</tr>
 					</table>
 				</form>
 		</div>
-
+		
+	
 </body>
 </html>
