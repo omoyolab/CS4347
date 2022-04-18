@@ -13,7 +13,7 @@
         </div>
 		
 		<div>
-    <form action="insert.php" method="post">
+    <form action="configs/insert.php" method="post">
 					<table class="form">
                         <tr>
 							<td>Zodiac:</td>
