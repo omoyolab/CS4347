@@ -57,8 +57,8 @@ INSERT INTO user VALUES ('10','Yang’, ‘Yang@gmail.com','keypass','UT Dallas'
 INSERT INTO user VALUES ('11','Mary’, ‘mary@gmail.com','keypass','UCLA','English','F', NULL,'2022-04-01 13:17:17','11','22');
 INSERT INTO user VALUES ('12','Jay’, ‘jay@gmail.com','keypass','UT Dallas','Accounting','F', NULL,'2022-04-01 13:17:17','12','25');
 INSERT INTO user VALUES ('13','Queen’, ‘queen@gmail.com','keypass','UT Dallas','Computer Science','F', NULL,'2022-04-01 13:17:17','13','27');
-INSERT INTO user VALUES ('14','Liz’, ‘liz@gmail.com','keypass','UT Dallas','History,'F', NULL,'2022-04-01 13:17:17','14','18');
-INSERT INTO user VALUES ('16','Shantel’, ‘shantel@gmail.com','keypass','Havard','International Studies','F', NULL,'2022-04-01 13:17:17','15','22');
+INSERT INTO user VALUES ('14','Liz’, ‘liz@gmail.com','keypass','UT Dallas','History','F', NULL,'2022-04-01 13:17:17','14','18');
+INSERT INTO user VALUES ('15','Shantel’, ‘shantel@gmail.com','keypass','Havard','International Studies','F', NULL,'2022-04-01 13:17:17','15','22');
 INSERT INTO user VALUES ('16','Victoria’, ‘victoria@gmail.com','keypass','MIT','Maths','F', NULL,'2022-04-01 13:17:17','16','31');
 INSERT INTO user VALUES ('17','Madison’, ‘madison@gmail.com','keypass','UCLA','Computer Science','F', NULL,'2022-04-01 13:17:17','17','22');
 INSERT INTO user VALUES ('18','Kim’, ‘kim@gmail.com','keypass','UT Austin','Biology','F', NULL,'2022-04-01 13:17:17','18','21');

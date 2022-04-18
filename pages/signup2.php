@@ -179,11 +179,9 @@
 							<td><input type="text" id="major" name="major" size="20" ></td>
 						</tr>
 						
-                     
-						<tr><td>&nbsp;</td></tr>
 						<tr>
 							<td colspan="2" align="center">
-								<button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;
+								<button type="submit">Submit</button>
 								<button type="button" id="cancelBtn" >Cancel</button>
 							</td>
 						</tr>
