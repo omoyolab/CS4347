@@ -19,8 +19,8 @@
     <div class="profile_section">
         <div class="info">
               <h3>My Profile</h3>
-            <a href=""> Edit Profile</a>
-            <a href=""> Delete Profile</a>
+            <a href="update.php"> Edit Profile</a>
+            <a href="delete.php"> Delete Profile</a>
                 <ul>
                     <li>Name:</li>
                     <li>College:</li>

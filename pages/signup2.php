@@ -8,7 +8,7 @@
 </head>
 <body>
         <div align="center">
-            <h1>Database Project User Signup form</h1>
+            <h1>Matching App: User Signup form</h1>
         </div>
 		
 		<div>
